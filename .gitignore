@@ -1,0 +1,4 @@
+./daily_dataset/
+./halfhourly_dataset/
+./hhblock_dataset/
+*.csv

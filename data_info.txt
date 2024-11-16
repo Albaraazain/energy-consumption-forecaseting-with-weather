@@ -1,0 +1,49 @@
+Data Information:
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 829 entries, 0 to 828
+Data columns (total 8 columns):
+ #   Column          Non-Null Count  Dtype         
+---  ------          --------------  -----         
+ 0   day             829 non-null    datetime64[ns]
+ 1   energy_sum      829 non-null    float64       
+ 2   energy_mean     829 non-null    float64       
+ 3   time            402 non-null    datetime64[ns]
+ 4   temperatureMax  402 non-null    float64       
+ 5   humidity        402 non-null    float64       
+ 6   windSpeed       402 non-null    float64       
+ 7   is_holiday      829 non-null    int32         
+dtypes: datetime64[ns](2), float64(5), int32(1)
+memory usage: 48.7 KB
+
+
+Data Statistics:
+                       day  energy_sum  energy_mean                           time  temperatureMax    humidity   windSpeed  is_holiday
+count                  829  829.000000   829.000000                            402      402.000000  402.000000  402.000000  829.000000
+mean   2013-01-10 00:00:00   10.358458     0.217487  2013-01-11 08:10:44.776119296        8.941791    0.816716    3.877985    0.021713
+min    2011-11-23 00:00:00    0.208997     0.159124            2011-11-23 00:00:00       -0.060000    0.590000    0.200000    0.000000
+25%    2012-06-17 00:00:00    8.565752     0.179165            2012-03-02 06:00:00        6.875000    0.770000    2.455000    0.000000
+50%    2013-01-10 00:00:00   10.372293     0.218697            2013-01-13 12:00:00        9.470000    0.820000    3.720000    0.000000
+75%    2013-08-05 00:00:00   11.832222     0.248069            2013-11-19 18:00:00       11.370000    0.870000    4.882500    0.000000
+max    2014-02-28 00:00:00   15.940238     0.332158            2014-02-28 00:00:00       19.480000    0.970000    9.960000    1.000000
+std                    NaN    1.886206     0.038916                            NaN        3.526588    0.073448    1.858573    0.145832
+
+Columns and Non-null Counts:
+day                 0
+energy_sum          0
+energy_mean         0
+time              427
+temperatureMax    427
+humidity          427
+windSpeed         427
+is_holiday          0
+
+Data Types:
+day               datetime64[ns]
+energy_sum               float64
+energy_mean              float64
+time              datetime64[ns]
+temperatureMax           float64
+humidity                 float64
+windSpeed                float64
+is_holiday                 int32
